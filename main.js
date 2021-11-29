@@ -85,4 +85,4 @@ client.on('ready', () => {
 
 });
 
-client.login('OTEzODExMjMxMzQ3OTg2NDUy.YaD7Bw.3LkRiuJzZxTs8rUJEyBpVKwdgLA');
+client.login('Aqui va el token del bot');
