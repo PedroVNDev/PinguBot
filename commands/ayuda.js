@@ -10,8 +10,8 @@ let imageFooter = 'https://www.pngall.com/wp-content/uploads/2016/03/Penguin-Tra
 const exampleEmbed = new MessageEmbed()
 	.setColor('#FFA500')
 	.setTitle('PinguBot')
-	.setURL('https://www.youtube.com/c/PinguExtremoYoutube')
-	//.setAuthor('PinguExtremo', authorImage, 'https://www.youtube.com/c/PinguExtremoYoutube')
+	.setURL('canal de youtube')
+	//.setAuthor('PinguExtremo', authorImage, 'canal de youtube')
 	.setDescription('Todos los comandos de PinguBot')
 	.setThumbnail(thumbnail)
 	.addFields(

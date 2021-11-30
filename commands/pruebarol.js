@@ -5,7 +5,7 @@ module.exports = {
     description: "Te dice si tienes permisos o no",
     execute(message, args){
         
-        if(message.member.roles.cache.has('742489081174425602')){
+        if(message.member.roles.cache.has(modId)){
             message.channel.send('Eres un moderador')
         }else{
             message.channel.send('No eres moderador')

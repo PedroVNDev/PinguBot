@@ -29,7 +29,7 @@ client.once('ready', () => {
 
     /*client.channels.fetch('742016339715293264')
     .then(channel => {
-        channel.send("Si vuelves a poner algo asi te vas funeki Levi");
+        channel.send("Envio de mensaje al iniciar el bot");
 
     })*/
 });
@@ -76,13 +76,12 @@ client.on('message', message =>{
 
 client.on('ready', () => {
 
-   client.user.setActivity("OnlyFans en Directo", {
+   client.user.setActivity("En vivo", {
        type: "STREAMING",
        description: "Hola",
-       url: "https://www.twitch.tv/pinguextremo"
        
    }) 
 
 });
 
-client.login('Aqui va el token del bot');
+client.login('Aqui va el token');
